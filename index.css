@@ -1,0 +1,62 @@
+.bg-color{
+    background-color: #DFDEDC;
+}
+.navbar-color{
+    background-color: #fff;
+}
+.text-color-1{
+    color: royalblue;
+}
+.nav-font-size{
+    font-size: 0.55rem;
+    color: #000000;
+}
+/* .admin-name{
+    color: #092032 !important;
+} */
+@media (max-width: 767px) {
+    .side-nav {
+      display: none;
+    }
+}
+@media (max-width: 576px) {
+    .admin-name {
+      display: none;
+    }
+}
+@media (max-width: 576px) {
+    .hide{
+        display: none;
+    }
+}
+@media (max-width: 525px) {
+    .text-size {
+        font-size: 15px;
+    }
+}
+.font-main-sied{
+    font-size: 0.9rem;
+}
+.lead-color{
+    background-color: rgba(230, 227, 227, 0.395);
+}
+.bg-color-2{
+    background-color: #3ec68b;
+}
+.font-dhm{
+    font-size: 0.4rem;
+}
+.font-dhm-cards{
+    font-size: 0.4rem;
+}
+@media (max-width: 576px) {
+    .card-mobl{
+        padding: 40px;
+    }
+}
+/* .bi.bi-2-square-fill::before{
+    content: "24";
+    font-size: 0.8rem;
+    line-height: 0;
+} */
+  
