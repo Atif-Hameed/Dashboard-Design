@@ -24,92 +24,102 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script> -->
 
-
-    <div class="container-fluid bg-color h-100 p-0">
-        <div class=" d-flex">
-            <div class="col-2 bg-primary  side-nav">
-                <h2 class="text-center">IQzeto</h2>
-
+        
+    
+    <div class="container-fluid bg-color h-100 p-0 position-relative">
+        <div class="d-flex"> 
+            <div  class="col-md-2  blue-color mb-4 side-nav side-bar" style="border-bottom-right-radius:5px;">
+                <div class="p-3">
+                    <h2 class="text-center text-white" style="font-family:'Lucida Sans', 'Lucida Sans Regular',
+                     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">iQzeto</h2>
+                </div>
 
 
                 <!-- LEFT VERTICAL NAVBAR -->
-                <nav class="navbar navbar-expand-lg ">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <nav class="navbar navbar-expand ">
+                    <div class="container-fluid px-2">
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#verticalNav" aria-controls="verticalNav" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <span class="bg-light navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="verticalNav">
-                            <ul class="navbar-nav flex-column p-0 px-3">
-                                <li class="nav-item ">
-                                    <a class="nav-link bg-light text-color-1" href="#">Dashboards</a>
+                        </button> -->
+                        <!-- <div class="collapse navbar-collapse" id="verticalNav"> -->
+                            <ul class="navbar-nav flex-column p-0 ">
+                                <li class="nav-item  d-flex align-items-center px-1 hover-nav py-0 ">
+                                    <i class="bi bi-house text-white"></i>
+                                    <a class="nav-link text-white " href="#">Dashboards</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-boxes text-white"></i>
                                     <a class="nav-link text-white" href="#">Question Bank</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-alarm text-white"></i>
                                     <a class="nav-link text-white" href="#">Shedule Quiz</a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-person text-white"></i>
                                     <a class="nav-link text-white" href="#">Profile</a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-wallet2 text-white"></i>
                                     <a class="nav-link text-white" href="#">My Wallet</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-person-gear text-white"></i>
                                     <a class="nav-link text-white" href="#">User Management</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Admin Scheduled Quiz</a>
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-person-vcard text-white"></i>
+                                    <a class="nav-link text-white" href="#">Admin Scheduld Quiz</a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-person-workspace text-white"></i>
                                     <a class="nav-link text-white" href="#">User Scheduled Quiz</a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item d-flex align-items-center hover-nav px-1 py-0">
+                                    <i class="bi bi-bar-chart-steps text-white"></i>
                                     <a class="nav-link text-white" href="#">Played Quiz</a>
                                 </li>
                             </ul>
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </nav>
             </div>
 
-
-
-            <div class="container w-100">
-
+            <div class=" container w-100">
 
                 <!-- ADMIN NAVBAR TOP -->
-                <nav class="mx-2 mb-4 navbar navbar-expand navbar-light navbar-color align-items-center p-0 my-1"
-                    style="border-radius: 7px;">
-                    <!-- <div class="container-fluid"> -->
-                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav"> -->
-                    <ul class="navbar-nav p-0 me-auto nav-font-size p-2 fw-bold">
-                        <li class="nav-item d-flex align-items-center">
-                            <img class="mx-1" src="/s1.png" width="25rem" alt="">
-                            <a class="nav-link  px-0 lh-sm" style="width: 3rem;" href="#">12$<br>Real Qzeto</a>
+                <nav class="mx-2 mb-4 navbar navbar-expand navbar-light navbar-color d-flex justify-content-between align-items-center p-0 my-1"
+                    style="border-radius: 7px; box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.11);">
+        
+                    <ul class="navbar-nav  p-0  nav-font-size p-2 fw-bold">
+                        <li class="nav-item d-flex align-items-center p-1 ">
+                            <button id="toggle-btn" class="btn d-sm-none py-0 border-dark px-1"><i class="bi bi-border-width"></i></button>
+
                         </li>
                         <li class="nav-item d-flex align-items-center">
-                            <img class="mx-1" src="/s2.png" width="25rem" alt="">
-                            <a class="nav-link p-0 lh-sm " style="width: 3rem;" href="#">3$<br>Free Qzeto</a>
+                            <img class="mx-1 img-size" src="/s1.png" width="25rem" alt="">
+                            <a class="nav-link fw-bold px-0 lh-sm" style="width: 3rem;" href="#">12$<br>Real Qzeto</a>
                         </li>
                         <li class="nav-item d-flex align-items-center">
-                            <img class="mx-1" src="/s4.png" width="25rem" alt="">
-                            <a class="nav-link p-0 lh-sm" style="width: 3.3rem;" href="#">0$<br>Bonus Qzeto</a>
+                            <img class="mx-1 img-size" src="/s2.png" width="25rem" alt="">
+                            <a class="nav-link fw-bold p-0 lh-sm " style="width: 3rem;" href="#">3$<br>Free Qzeto</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <img class="mx-1 img-size" src="/s4.png" width="25rem" alt="">
+                            <a class="nav-link fw-bold p-0 lh-sm" style="width: 3.3rem;" href="#">0$<br>Bonus Qzeto</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav m-0 py-0 px-3 d-flex align-items-center">
-                        <li class="nav-item d-flex align-items-center">
-                            <a class="nav-link mx-1 p-0 lh-1 text-primary admin-name"
-                                href="#"><small>Charlotte<br><small class="p-0"
-                                        style="margin-left: 2.3rem; font-size: 0.4rem;">admin</small></small></a>
-                            <img class="rounded-circle" width="33rem" height="30rem" src="s5.jpg" alt="">
+                        <li class="nav-item d-flex align-items-center ">
+                            <div class="mx-1 admin-name">
+                                <p class="nav-link my-0 p-0 lh-sm fs-6 text-primary "
+                                >Charlotte</p>
+                                <p class="my-0 text-primary lh-sm d-flex justify-content-end" style="font-size: 0.4rem;">admin</p>
+                            </div>
+                            
+                            <img class="rounded-circle" width="30rem" height="30rem" src="s5.jpg" alt="">
                         </li>
                     </ul>
                     <!-- </div> -->
@@ -120,25 +130,25 @@
                 <!-- MID SECTION -->
                 <div class="container-fluid g-0">
 
-                    <div class="row g-0 mt-2 mb-4 ">
+                    <div class="row g-0 mt-2 mb-4">
                         <h4 class="p-0 text-size mx-2">English for Science, Techs and Engineering</h4>
-                        <div class="col-lg-8 g-0  px-2  ml-5 ">
+                        <div class="col-lg-9 g-0 px-2 ">
                             <div class="w-100 bg-light">
 
                                 <!-- ADMIN DETAILS MAIN-1 -->
-                                <div class="row g-0">
+                                <div class="row g-0 " style="box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.082);">
                                     <ul class="nav d-flex text-size align-items-center my-2">
                                         <li class="nav-item d-flex align-items-center py-2 mx-2 px-1"><img
-                                                class="rounded-circle" src="s5.jpg" width="34rem" height="32rem" alt="">
-                                            <a class="nav-link py-0 px-1 m-0 lh-1  " href="">Creator<br><small
+                                                class="rounded-circle" src="s5.jpg" width="32rem" height="32rem" alt="">
+                                            <a class="nav-link py-0 px-1 m-0 lh-1 admin-text" href="">Creator<br><small
                                                     class="text-dark">admin</small></a>
                                         </li>
-                                        <li class="nav-item d-flex align-items-center mx-2 px-1">
-                                            <a class="nav-link py-0 px-3 m-0 lh-1  border-start"
+                                        <li class="nav-item d-flex align-items-center mx-sm-2 mx-0 px-sm-1">
+                                            <a class="nav-link py-0 px-3 m-0 lh-1 admin-text  border-start"
                                                 href="">Category<br><small class="text-dark ">English</small></a>
                                         </li>
-                                        <li class="nav-item d-flex align-items-center mx-0 px-1">
-                                            <a class="nav-link py-0 px-3 m-0 lh-1 border-start"
+                                        <li class="nav-item d-flex align-items-center mx-0 px-sm-1">
+                                            <a class="nav-link py-0 px-3 m-0 admin-text lh-1 border-start"
                                                 href="">Reviews<br><small class="text-warning "
                                                     style="font-size: 0.6em;"><i class="bi bi-star-fill"></i><i
                                                         class="bi bi-star-fill mx-1"></i><i
@@ -146,6 +156,11 @@
                                                         class="bi bi-star-fill mx-1"></i><i
                                                         class="bi bi-star-fill "></i></small></a>
                                         </li>
+                                        <button class="navbar-toggler d-sm-none border-dark px-1 ms-auto mx-2" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                            aria-label="Toggle navigation">
+                                            <i class="bi bi-menu-button-wide fs-6"></i>
+                                        </button>
                                     </ul>
                                 </div>
 
@@ -153,25 +168,21 @@
                                 <div class="row g-0">
                                     <nav class="navbar navbar-expand-sm bg-body-tertiary px-0 py-0">
                                         <!-- <div class="container-fluid"> -->
-                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                            aria-label="Toggle navigation">
-                                            <span class="navbar-toggler-icon bg-dark"></span>
-                                        </button>
+                                        
                                         <div class="collapse navbar-collapse " id="navbarNav">
                                             <ul class="navbar-nav w-100 align-items-center  nav-fill p-0">
-                                                <li class="nav-item border-top border-end border-bottom">
+                                                <li class="nav-item border-top border-end border-bottom lead-hover">
                                                     <a class="nav-link text-center text-dark " href="#">Quiz Rules</a>
                                                 </li>
-                                                <li class="nav-item border">
+                                                <li class="nav-item border lead-hover">
                                                     <a class="nav-link text-center text-dark " href="#">Prize Pool</a>
                                                 </li>
-                                                <li class="nav-item border">
+                                                <li class="nav-item border lead-hover">
                                                     <a class="nav-link text-dark text-center " href="#">Knowledge
                                                         Bank</a>
                                                 </li>
-                                                <li class="nav-item border">
-                                                    <a class="nav-link text-white bg-warning text-center" href="">Leader
+                                                <li class="nav-item border d-sm-block d-none" style="background-color: #feb125;">
+                                                    <a class="nav-link text-white text-center active" aria-current="page" href="#leaderBoard">Leader
                                                         Board</a>
                                                 </li>
                                             </ul>
@@ -180,12 +191,17 @@
                                     </nav>
                                 </div>
 
+                                <div class="d-sm-none d-flex justify-content-center py-3">
+                                    <a class="nav-link text-white bg-warning text-center fs-3 active w-50 " aria-current="page" href="#leaderBoard">Leader
+                                        Board</a>
+                                </div>
+
                                 <!-- LEADER BOARD MAIN-3 -->
-                                <div class="row mb-5 g-0 justify-content-around">
+                                <div class="row mb-5 g-0 justify-content-around" id="leaderBoard">
 
                                     <div class="col-sm-6 g-0 px-3">
                                         <div
-                                            class="col-sm-12  mt-3 g-0 px-1 lead-color d-flex align-items-center rounded">
+                                            class="col-sm-12  mt-2 g-0 px-1 lead-color d-flex align-items-center rounded">
                                             <div class="d-flex align-items-center py-1">
                                                 <img class="rounded-circle p-0" src="s7.jpg" width="30rem"
                                                     height="30rem" alt="">
@@ -320,43 +336,63 @@
 
 
                         <!-- MAIN-SIDE -->
-                        <div class="col-lg-4 px-2 g-0  ">
-                            <div class="w-100  px-0 rounded-3">
-                                <div class="bg-color-2 m-0 p-3 "
-                                    style="border-top-left-radius: 20px;border-top-right-radius: 20px;">
-                                    <h4 class="text-center text-white fw-light "><b>Prize Pool-100000</b></h4>
+                        <div class="col-lg-3 px-2 g-0 ">
+                            <div class="bg-color-2" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                                <div class=" m-0 px-1 py-3 ">
+                                    <h5 class="text-center text-white fw-light "><b>Prize Pool-100000</b></h5>
                                 </div>
-                                <div class="px-2 bg-light py-2"
-                                    style="border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;">
-                                    <div>
-                                        <div class="row g-0">
+                            </div>
+                            <div class="w-100  px-2 rounded-3 g-0">
+                                
+                                <div class="row px-1 bg-light py-2 gx-3"
+                                    style="border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;">
+                                    <div class="p-0 col-sm-12 col-6 px-2">
+                                        <!-- <div class="row g-0 "> -->
+                                        <div class="d-flex justify-content-between  align-items-center">
                                             <div class="d-flex align-items-center">
                                                 <i class="bi bi-list-ul me-1 font-main-sied"></i>
                                                 <h6 class=" mb-0 font-main-sied">Quiz Type</h6>
-                                                <a class="text-white ms-auto rounded-pill text-decoration-none bg-success font-main-sied px-2 py-0 lh-sm"
-                                                    href="#"><small>FREE</small></a>
                                             </div>
+                                            <div>
+                                                <a class="text-white rounded-pill text-decoration-none bg-success font-main-sied px-2 py-0 lh-sm"
+                                                    href="#"><small><small>FREE</small></small></a>
+                                            </div>
+
                                         </div>
-                                        <div class="row g-0 mt-4 ">
-                                            <div class="d-flex align-items-center">
-                                                <i class="bi bi-clock me-1 font-main-sied"></i>
-                                                <h6 class=" mb-0 font-main-sied">Start Time</h6>
-                                                <p class="ms-auto font-main-sied mb-0">22/Feb/2022</p>
+                                        <!-- </div> -->
+                                        <div class="row g-0 mt-4">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="bi bi-clock me-1 font-main-sied"></i>
+                                                    <h6 class=" mb-0 font-main-sied">Start Time</h6>
+                                                </div>
+                                                <div>
+                                                    <p class="ms-auto font-main-sied mb-0">22/Feb/2022</p>
+
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row g-0 mt-4">
-                                            <div class="d-flex align-items-center">
-                                                <i class="bi bi-clock me-1 font-main-sied"></i>
-                                                <h6 class=" mb-0 font-main-sied">End Time</h6>
-                                                <p class="ms-auto font-main-sied mb-0">23/Feb/2022</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="bi bi-clock me-1 font-main-sied"></i>
+                                                    <h6 class=" mb-0 font-main-sied">End Time</h6>
+                                                </div>
+                                                <div>
+                                                    <p class="ms-auto font-main-sied mb-0">23/Feb/2022</p>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div>
-                                        <div class="row g-0 mt-4">
-                                            <div class="d-flex align-items-center">
-                                                <i class="bi bi-clock me-1 font-main-sied"></i>
-                                                <h6 class=" mb-0 font-main-sied">Duration</h6>
+                                    <div class="p-0 col-sm-12 col-6 px-2">
+                                        <div class="row g-0 mt-sm-4 ">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="bi bi-clock me-1 font-main-sied"></i>
+                                                    <h6 class=" mb-0 font-main-sied">Duration</h6>
+                                                </div>
+
                                                 <!-- <p class="ms-auto font-main-sied mb-0">23/Feb/2022</p> -->
                                                 <p class="ms-auto font-main-sied mb-0">
                                                 <div class="d-flex mx-1 flex-column align-items-center">
@@ -382,33 +418,41 @@
                                             </div>
                                         </div>
                                         <div class="row g-0 mt-4">
-                                            <div class="d-flex align-items-center">
-                                                <i class="bi bi-box-seam me-1 font-main-sied"></i>
-                                                <h6 class=" mb-0 font-main-sied">Number of Questions</h6>
-                                                <p class="ms-auto font-main-sied mb-0 fw-bold">101</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="bi bi-box-seam me-1 font-main-sied"></i>
+                                                    <h6 class=" mb-0 font-main-sied">Number of Questions</h6>
+                                                </div>
+                                                <div>
+                                                    <p class="ms-auto font-main-sied mb-0 fw-bold">101</p>
+
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="row g-0 mt-4">
-                                            <div class="d-flex align-items-center">
-                                                <i class="bi bi-person me-1 font-main-sied"></i>
-                                                <h6 class=" mb-0 font-main-sied">Number of Participants</h6>
-                                                <p class="ms-auto font-main-sied mb-0 fw-bold">33</p>
+                                        <div class="row g-0 mt-4 ">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="bi bi-person me-1 font-main-sied"></i>
+                                                    <h6 class=" mb-0 font-main-sied">Number of Participants</h6>
+                                                </div>
+                                                <div>
+                                                    <p class="ms-auto font-main-sied mb-0 fw-bold">33</p>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div>
-                                        <div class="row g-0 mt-4">
+                                        <div class="row g-0 mt-4 col-sm-12 col-6 px-2">
                                             <div class="d-flex align-items-center">
                                                 <i class="bi bi-wallet2 me-1 font-main-sied"></i>
                                                 <h6 class=" mb-0 font-main-sied">Registeration Fee</h6>
-                                                <p class="ms-auto font-main-sied mb-0 fw-bold">40$</p>
+                                                <p class="ms-sm-auto ms-4  font-main-sied mb-0 fw-bold">40$</p>
                                             </div>
                                         </div>
-                                    </div>
-
-                                    <div class="mt-4">
-                                        <button type="button" class=" text-white w-100 btn bg-reg btn-warning btn-lg"
-                                            style="border-radius: 10px;">Registered</button>
+                                        
+                                    <div class="mt-4 px-1 py-0">
+                                        <button type="button" class=" text-white w-100 btn bg-reg btn-lg"
+                                            style="border-radius: 10px; background-color: #feb125;">Registered</button>
                                     </div>
                                 </div>
                             </div>
@@ -417,807 +461,944 @@
 
 
                     <!-- BOTTOM CARDS -->
-                    <div>
-                        <h4 class="p-0 text-size mx-2">Other Quizzes Scheduled by Nicloe Brown</h4>
+                    <div class="mb-3">
+                        <h4 class="p-0 text-size mx-2 head-2">Other Quizzes Scheduled by Nicloe Brown</h4>
 
 
 
                         <div class="container-lg">
                             <div class="d-lg-none card-mobl">
-                              <!-- Carousel for smaller screens -->
-                              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="col-lg-4">
-                                                <div class="card p-0 rounded ">
-                                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                                <div class="bg-primary  p-2 rounded-top">
-                                                    <div class="d-flex justify-content-between align-items-center mb-4">
-                                                        <p class=" text-white m-0 lh-sm col-xsm-9">This will be the quiz name in 2 lines</p>
-                                                        <a class="px-3 lh-sm   py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
-                                                            href="">Paid</a>
-                                                    </div>
-                                                    <div>
-                                                        <p class="text-white my-1">Ends in</p>
-                
-                                                        <!-- SMALL CARDS  -->
-                                                        <div class="small-cards d-flex col-4">
-                                                            <div class="col-xsm-3">
-                                                                <div class="px-2 py-2" style="background-color: #4db295;">
-                                                                    <p class="lh-sm text-center text-white m-0"
-                                                                        style="font-size: 0.4rem;">4</p>
+                                <!-- Carousel for smaller screens -->
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="false">
+                                    <div class="carousel-inner" style="box-shadow: -5px 5px 10px 4px rgba(0, 0, 0, 0.087); border-radius: 15px;">
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="col-lg-4">
+                                                        <div class="card p-0 " style="border-radius: 15px;">
+                                                            <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                                            <div class="blue-color  p-2" style="border-top-left-radius:15px; border-top-right-radius: 15px;">
+                                                                <div
+                                                                    class="d-flex justify-content-between align-items-center mb-4">
+                                                                    <p class=" text-white m-0 lh-sm col-xsm-9">This will
+                                                                        be the quiz name in 2 lines</p>
+                                                                    <a class="px-3 lh-sm   py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
+                                                                        href="">Paid</a>
                                                                 </div>
-                                                                <p class="font-dhm-cards text-center text-white">Days</p>
+                                                                <div>
+                                                                    <p class="text-white my-1">Ends in</p>
+
+                                                                    <!-- SMALL CARDS  -->
+                                                                    <div class="small-cards d-flex col-4">
+                                                                        <div class="col-xsm-4">
+                                                                            <div class="p-2"
+                                                                                style="background-color: #4db295;">
+                                                                                <p class="lh-sm text-center text-white m-0"
+                                                                                    style="font-size: 0.4rem;">4</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Days</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4 mx-1">
+                                                                            <div class="bg-warning p-2">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.4rem;">5</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Hours</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4">
+                                                                            <div class="p-2"
+                                                                                style="background-color: #34cd36;">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.4rem;">11</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Min</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4 mx-1">
+                                                                            <div class="p-2"
+                                                                                style="background-color: #f1a614;">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.4rem;">24</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Sec</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div class="col-xsm-3 mx-1">
-                                                                <div class="bg-warning px-2 py-2 ">
-                                                                    <p class="lh-sm text-center m-0 text-white"
-                                                                        style="font-size: 0.4rem;">5</p>
+
+
+                                                            <!-- Bubbles -->
+                                                            <div class="d-flex bg-light align-items-centern justify-content-between position-relative p-2">
+                                                                <div class="d-flex justify-content-around align-items-center">
+                                                                    <div class="d-flex align-items-center ">
+                                                                        <div class="bg-danger px-2 py-1 rounded-circle">
+                                                                            <p class="text-white m-0 font-dhm-cards ">?
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            99</p>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center mx-2">
+                                                                        <div
+                                                                            class="bg-primary px-2 py-1 rounded-circle">
+                                                                            <p class="text-white m-0 font-dhm-cards "><i
+                                                                                    class="bi bi-person text-white"></i>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            23</p>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="px-2 py-1 rounded-circle"
+                                                                            style="background-color: #f1a614;">
+                                                                            <p class="text-white m-0 font-dhm-cards ">$
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            $96</p>
+                                                                    </div>
                                                                 </div>
-                                                                <p class="font-dhm-cards text-center text-white">Hours</p>
+
+                                                                <!-- BIG BUBBLE -->
+                                                                <div class="position-absolute "
+                                                                    style="top:-30px; right: 30px;">
+                                                                    <div
+                                                                        class="blue-color px-3 py-2 rounded-circle  border">
+                                                                        <p class="text-white m-0 font-dhm-cards "><i
+                                                                                class="bi bi-person text-white fs-4"></i>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
                                                             </div>
-                                                            <div class="col-xsm-3">
-                                                                <div class="px-2 py-2" style="background-color: #34cd36;">
-                                                                    <p class="lh-sm text-center m-0 text-white"
-                                                                        style="font-size: 0.4rem;">11</p>
+
+                                                            <!-- MID -->
+                                                            <div class="card-body px-2 mb-3">
+                                                                <div class="d-flex ">
+                                                                    <div>
+                                                                        <h5 class="card-title fs-6">Prize Pool</h5>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #4db295;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$96</p>
+                                                                        </div>
+                                                                        <div class="d-flex align-items-center my-1">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #0000ff;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$26</p>
+                                                                        </div>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #f1a614;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$32</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="ms-auto mx-5">
+                                                                        <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
+                                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">
+                                                                            Start: 22/Feb/2022</p>
+                                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">
+                                                                            End: 23/Feb/2022</p>
+                                                                    </div>
                                                                 </div>
-                                                                <p class="font-dhm-cards text-center text-white">Min</p>
                                                             </div>
-                                                            <div class="col-xsm-3 mx-1">
-                                                                <div class="px-2 py-2" style="background-color: #f1a614;">
-                                                                    <p class="lh-sm text-center m-0 text-white"
-                                                                        style="font-size: 0.4rem;">24</p>
-                                                                </div>
-                                                                <p class="font-dhm-cards text-center text-white">Sec</p>
+
+
+                                                            <!-- FOOTER -->
+                                                            <div class="py-1 px-4">
+                                                                <button type="button" style="background-color: #4db295;"
+                                                                    class="btn py-1 text-white btn-lg w-100">Register</button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                
-                
-                                                <!-- Bubbles -->
-                                                <div class="d-flex bg-light align-items-centern justify-content-between position-relative p-2">
-                                                    <div class="d-flex ">
-                                                        <div class="d-flex align-items-center ">
-                                                            <div class="bg-danger px-2 py-1 rounded-circle">
-                                                                <p class="text-white m-0 font-dhm-cards ">?</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="col-lg-4">
+                                                        <div class="card  p-0 " style="border-radius: 15px;">
+                                                            <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                                            <div class="blue-color  p-2 rounded-top"style="border-top-left-radius:15px; border-top-right-radius: 15px;">
+                                                                <div
+                                                                    class="d-flex justify-content-between align-items-center mb-4">
+                                                                    <p class=" col-xsm-9 text-white m-0 lh-sm">This will
+                                                                        be the quiz name in 2 lines
+                                                                    </p>
+                                                                    <a class="px-3 lh-sm  py-1 text-center text-decoration-none text-white rounded-pill"
+                                                                        style="background-color: #34cd36;"
+                                                                        href="">Free</a>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="text-white my-1">Ends in</p>
+
+                                                                    <!-- SMALL CARDS  -->
+                                                                    <div class="small-cards d-flex col-4">
+                                                                        <div class="col-xsm-4">
+                                                                            <div class="px-2 py-2"
+                                                                                style="background-color: #4db295;">
+                                                                                <p class="lh-sm text-center text-white m-0"
+                                                                                    style="font-size: 0.5rem;">11</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Days</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4 mx-1">
+                                                                            <div class="bg-warning px-2 py-2 ">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.5rem;">2</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Hours</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4">
+                                                                            <div class="px-2 py-2"
+                                                                                style="background-color: #34cd36;">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.5rem;">25</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Min</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4 mx-1">
+                                                                            <div class="px-2 py-2"
+                                                                                style="background-color: #f1a614;">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.5rem;">55</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Sec</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">99</p>
-                                                        </div>
-                                                        <div class="d-flex align-items-center ">
-                                                            <div class="bg-primary px-2 py-1 rounded-circle">
-                                                                <p class="text-white m-0 font-dhm-cards "><i
-                                                                        class="bi bi-person text-white"></i></p>
+
+
+                                                            <!-- Bubbles -->
+                                                            <div
+                                                                class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
+                                                                <div class="d-flex ">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="bg-danger px-2 py-1 rounded-circle">
+                                                                            <p class="text-white m-0 font-dhm-cards ">?
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            10</p>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center mx-2">
+                                                                        <div
+                                                                            class="bg-primary px-2 py-1 rounded-circle">
+                                                                            <p class="text-white m-0 font-dhm-cards "><i
+                                                                                    class="bi bi-person text-white"></i>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            10</p>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="px-2 py-1 rounded-circle"
+                                                                            style="background-color: #f1a614;">
+                                                                            <p class="text-white m-0 font-dhm-cards ">$
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            $56</p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- BIG BUBBLE -->
+                                                                <div class="position-absolute "
+                                                                    style="top:-30px; right: 30px;">
+                                                                    <div
+                                                                        class="blue-color px-3 py-2 rounded-circle  border">
+                                                                        <p class="text-white m-0 font-dhm-cards "><i
+                                                                                class="bi bi-person text-white fs-4"></i>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
                                                             </div>
-                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">23</p>
+
+                                                            <!-- MID -->
+                                                            <div class="card-body px-2 mb-3">
+                                                                <div class="d-flex ">
+                                                                    <div>
+                                                                        <h5 class="card-title fs-6">Prize Pool</h5>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #4db295;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$96</p>
+                                                                        </div>
+                                                                        <div class="d-flex align-items-center my-1">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #0000ff;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$26</p>
+                                                                        </div>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #f1a614;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$32</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="ms-auto mx-5">
+                                                                        <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
+                                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">
+                                                                            Start: 22/Feb/2022</p>
+                                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">
+                                                                            End: 23/Feb/2022</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <!-- FOOTER -->
+                                                            <div class="py-1 px-4">
+                                                                <button type="button"
+                                                                    class="btn btn-danger py-1 text-white btn-lg w-100">Unregister</button>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="col-lg-4">
+                                                        <div class="card p-0 " style="border-radius: 15px;">
+                                                            <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                                            <div class="blue-color  p-2 " style="border-top-left-radius:15px; border-top-right-radius: 15px;">
+                                                                <div
+                                                                    class="d-flex justify-content-between align-items-center mb-4">
+                                                                    <p class=" text-white m-0 lh-sm col-xsm-9">This will
+                                                                        be the quiz name in 2 lines</p>
+                                                                    <a class="px-3 lh-sm  py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
+                                                                        href="">Paid</a>
+                                                                </div>
+                                                                <div>
+                                                                    <p class="text-white my-1">Ends in</p>
+
+                                                                    <!-- SMALL CARDS  -->
+                                                                    <div class="small-cards d-flex col-4">
+                                                                        <div class="col-xsm-4">
+                                                                            <div class="px-2 py-2"
+                                                                                style="background-color: #4db295;">
+                                                                                <p class="lh-sm text-center text-white m-0"
+                                                                                    style="font-size: 0.5rem;">33</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Days</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4 mx-1">
+                                                                            <div class="bg-warning px-2 py-2 ">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.5rem;">2</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Hours</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4">
+                                                                            <div class="px-2 py-2"
+                                                                                style="background-color: #34cd36;">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.5rem;">43</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Min</p>
+                                                                        </div>
+                                                                        <div class="col-xsm-4 mx-1">
+                                                                            <div class="px-2 py-2"
+                                                                                style="background-color: #f1a614;">
+                                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                                    style="font-size: 0.5rem;">22</p>
+                                                                            </div>
+                                                                            <p
+                                                                                class="font-dhm-cards text-center text-white">
+                                                                                Sec</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <!-- Bubbles -->
+                                                            <div
+                                                                class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
+                                                                <div class="d-flex ">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="bg-danger px-2 py-1 rounded-circle">
+                                                                            <p class="text-white m-0 font-dhm-cards ">?
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            83</p>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center mx-2">
+                                                                        <div
+                                                                            class="bg-primary px-2 py-1 rounded-circle">
+                                                                            <p class="text-white m-0 font-dhm-cards "><i
+                                                                                    class="bi bi-person text-white"></i>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            32</p>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="px-2 py-1 rounded-circle"
+                                                                            style="background-color: #f1a614;">
+                                                                            <p class="text-white m-0 font-dhm-cards ">$
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">
+                                                                            $88</p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- BIG BUBBLE -->
+                                                                <div class="position-absolute "
+                                                                    style="top:-30px; right: 30px;">
+                                                                    <div
+                                                                        class="blue-color px-3 py-2 rounded-circle border">
+                                                                        <p class="text-white m-0 font-dhm-cards "><i
+                                                                                class="bi bi-person text-white fs-4"></i>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!-- MID -->
+                                                            <div class="card-body px-2 mb-3">
+                                                                <div class="d-flex ">
+                                                                    <div>
+                                                                        <h5 class="card-title fs-6">Prize Pool</h5>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #4db295;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$88</p>
+                                                                        </div>
+                                                                        <div class="d-flex align-items-center my-1">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #0000ff;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$26</p>
+                                                                        </div>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <div class="px-1 py-1 rounded-circle"
+                                                                                style="background-color: #f1a614;">
+                                                                                <p
+                                                                                    class="text-white m-0 font-dhm-cards ">
+                                                                                    1st</p>
+                                                                            </div>
+                                                                            <p class="m-0 mx-1"
+                                                                                style="font-size: 0.6rem;">$42</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="ms-auto mx-5">
+                                                                        <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
+                                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">
+                                                                            Start: 22/Feb/2022</p>
+                                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">
+                                                                            End: 23/Feb/2022</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <!-- FOOTER -->
+                                                            <div class="py-1 px-4">
+                                                                <button type="button" style="background-color: #4db295;"
+                                                                    class="btn py-1 text-white btn-lg w-100">Register</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev"  type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                                        <span class="visually-hidden ">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next "  type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Cards At FULL Width -->
+                            <div class="d-none d-lg-block">
+                                <div class="row mx-0">
+                                    <div class="col-md-4">
+                                        <div class="card p-0 rounded ">
+                                            <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                            <div class="blue-color  p-2 rounded-top">
+                                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                                    <p class=" text-white m-0 lh-sm col-9">This will be the quiz name in
+                                                        2 lines</p>
+                                                    <a class="px-3  lh-sm  py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
+                                                        href="">Paid</a>
+                                                </div>
+                                                <div>
+                                                    <p class="text-white my-1">Ends in</p>
+
+                                                    <!-- SMALL CARDS  -->
+                                                    <div class="small-cards d-flex col-4">
+                                                        <div class="col-xsm-4">
+                                                            <div class="p-3" style="background-color: #4db295;">
+                                                                <p class="lh-sm text-center text-white m-0"
+                                                                    style="font-size: 0.6rem;">4</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Days</p>
+                                                        </div>
+                                                        <div class="col-xsm-4 mx-1">
+                                                            <div class="bg-warning p-3 ">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">5</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Hours</p>
+                                                        </div>
+                                                        <div class="col-xsm-4">
+                                                            <div class="p-3" style="background-color: #34cd36;">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">11</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Min</p>
+                                                        </div>
+                                                        <div class="col-xsm-4 mx-1">
+                                                            <div class="p-3" style="background-color: #f1a614;">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">24</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Sec</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <!-- Bubbles -->
+                                            <div
+                                                class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
+                                                <div class="d-flex ">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="bg-danger px-2 py-1 rounded-circle">
+                                                            <p class="text-white m-0 font-dhm-cards ">?</p>
+                                                        </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">99</p>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mx-4">
+                                                        <div class="bg-primary px-2 py-1 rounded-circle">
+                                                            <p class="text-white m-0 font-dhm-cards "><i
+                                                                    class="bi bi-person text-white"></i></p>
+                                                        </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">23</p>
+                                                    </div>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="px-2 py-1 rounded-circle"
+                                                            style="background-color: #f1a614;">
+                                                            <p class="text-white m-0 font-dhm-cards ">$</p>
+                                                        </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- BIG BUBBLE -->
+                                                <div class="position-absolute " style="top:-30px; right: 30px;">
+                                                    <div class="blue-color px-3 py-2 rounded-circle  border">
+                                                        <p class="text-white m-0 font-dhm-cards "><i
+                                                                class="bi bi-person text-white fs-4"></i></p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <!-- MID -->
+                                            <div class="card-body px-2 mb-3">
+                                                <div class="d-flex ">
+                                                    <div>
+                                                        <h5 class="card-title fs-6">Prize Pool</h5>
                                                         <div class="d-flex align-items-center">
-                                                            <div class="px-2 py-1 rounded-circle" style="background-color: #f1a614;">
-                                                                <p class="text-white m-0 font-dhm-cards ">$</p>
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #4db295;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
                                                             </div>
                                                             <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
                                                         </div>
+                                                        <div class="d-flex align-items-center my-1">
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #0000ff;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
+                                                            </div>
+                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #f1a614;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
+                                                            </div>
+                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$32</p>
+                                                        </div>
                                                     </div>
-                
-                                                    <!-- BIG BUBBLE -->
-                                                    <div class="position-absolute " style="top:-40px; right: 30px;">
-                                                        <div class="bg-primary px-4 py-3 rounded-circle  border">
+                                                    <div class="ms-auto mx-5">
+                                                        <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
+                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">Start:
+                                                            22/Feb/2022</p>
+                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <!-- FOOTER -->
+                                            <div class="py-1 px-4">
+                                                <button type="button" style="background-color: #4db295;"
+                                                    class="btn py-1 text-white btn-lg w-100">Register</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card  p-0 ">
+                                            <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                            <div class="blue-color  p-2 rounded-top">
+                                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                                    <p class=" text-white m-0 col-9 lh-sm">This will be the quiz name in
+                                                        2 lines
+                                                    </p>
+                                                    <a class="px-3 lh-sm  py-1 text-center text-decoration-none text-white rounded-pill"
+                                                        style="background-color: #34cd36;" href="">Free</a>
+                                                </div>
+                                                <div>
+                                                    <p class="text-white my-1">Ends in</p>
+
+                                                    <!-- SMALL CARDS  -->
+                                                    <div class="small-cards d-flex col-4">
+                                                        <div class="col-xsm-4">
+                                                            <div class="p-3" style="background-color: #4db295;">
+                                                                <p class="lh-sm text-center text-white m-0"
+                                                                    style="font-size: 0.6rem;">11</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Days</p>
+                                                        </div>
+                                                        <div class="col-xsm-4 mx-1">
+                                                            <div class="bg-warning p-3 ">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">2</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Hours</p>
+                                                        </div>
+                                                        <div class="col-xsm-4">
+                                                            <div class="p-3" style="background-color: #34cd36;">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">25</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Min</p>
+                                                        </div>
+                                                        <div class="col-xsm-4 mx-1">
+                                                            <div class="p-3" style="background-color: #f1a614;">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">55</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Sec</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <!-- Bubbles -->
+                                            <div
+                                                class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
+                                                <div class="d-flex ">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="bg-danger px-2 py-1 rounded-circle">
+                                                            <p class="text-white m-0 font-dhm-cards ">?</p>
+                                                        </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">10</p>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mx-4">
+                                                        <div class="bg-primary px-2 py-1 rounded-circle">
                                                             <p class="text-white m-0 font-dhm-cards "><i
-                                                                    class="bi bi-person text-white fs-4"></i></p>
+                                                                    class="bi bi-person text-white"></i></p>
                                                         </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">10</p>
                                                     </div>
-                
-                                                </div>
-                
-                                                <!-- MID -->
-                                                <div class="card-body px-2 mb-3">
-                                                    <div class="d-flex ">
-                                                        <div>
-                                                            <h5 class="card-title fs-6">Prize Pool</h5>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="px-1 py-1 rounded-circle"
-                                                                    style="background-color: #4db295;">
-                                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
-                                                            </div>
-                                                            <div class="d-flex align-items-center my-1">
-                                                                <div class="px-1 py-1 rounded-circle"
-                                                                    style="background-color: #0000ff;">
-                                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
-                                                            </div>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="px-1 py-1 rounded-circle"
-                                                                    style="background-color: #f1a614;">
-                                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$32</p>
-                                                            </div>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="px-2 py-1 rounded-circle"
+                                                            style="background-color: #f1a614;">
+                                                            <p class="text-white m-0 font-dhm-cards ">$</p>
                                                         </div>
-                                                        <div class="ms-auto mx-5">
-                                                            <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
-                                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">Start: 22/Feb/2022</p>
-                                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022</p>
-                                                        </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">$56</p>
                                                     </div>
                                                 </div>
-                
-                
-                                                <!-- FOOTER -->
-                                                <div class="py-1 px-4">
-                                                    <button type="button" style="background-color: #4db295;"
-                                                        class="btn py-1 text-white btn-lg w-100">Register</button>
+
+                                                <!-- BIG BUBBLE -->
+                                                <div class="position-absolute " style="top:-30px; right: 30px;">
+                                                    <div class="blue-color px-3 py-2 rounded-circle  border">
+                                                        <p class="text-white m-0 font-dhm-cards "><i
+                                                                class="bi bi-person text-white fs-4"></i></p>
+                                                    </div>
                                                 </div>
-                                                </div>
+
                                             </div>
-                                    </div>
-                                    </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="col-lg-4">
-                                                <div class="card  p-0 ">
-                                                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                                    <div class="bg-primary  p-2 rounded-top">
-                                                        <div class="d-flex justify-content-between align-items-center mb-4">
-                                                            <p class=" col-xsm-9 text-white m-0 lh-sm">This will be the quiz name in 2 lines
-                                                            </p>
-                                                            <a class="px-3 lh-sm  py-1 text-center text-decoration-none text-white rounded-pill"
-                                                                style="background-color: #34cd36;" href="">Free</a>
-                                                        </div>
-                                                        <div>
-                                                            <p class="text-white my-1">Ends in</p>
-                
-                                                            <!-- SMALL CARDS  -->
-                                                            <div class="small-cards d-flex col-4">
-                                                                <div class="col-xsm-3">
-                                                                    <div class="px-2 py-2" style="background-color: #4db295;">
-                                                                        <p class="lh-sm text-center text-white m-0"
-                                                                            style="font-size: 0.5rem;">11</p>
-                                                                    </div>
-                                                                    <p class="font-dhm-cards text-center text-white">Days</p>
-                                                                </div>
-                                                                <div class="col-xsm-3 mx-1">
-                                                                    <div class="bg-warning px-2 py-2 ">
-                                                                        <p class="lh-sm text-center m-0 text-white"
-                                                                            style="font-size: 0.5rem;">2</p>
-                                                                    </div>
-                                                                    <p class="font-dhm-cards text-center text-white">Hours</p>
-                                                                </div>
-                                                                <div class="col-xsm-3">
-                                                                    <div class="px-2 py-2" style="background-color: #34cd36;">
-                                                                        <p class="lh-sm text-center m-0 text-white"
-                                                                            style="font-size: 0.5rem;">25</p>
-                                                                    </div>
-                                                                    <p class="font-dhm-cards text-center text-white">Min</p>
-                                                                </div>
-                                                                <div class="col-xsm-3 mx-1">
-                                                                    <div class="px-2 py-2" style="background-color: #f1a614;">
-                                                                        <p class="lh-sm text-center m-0 text-white"
-                                                                            style="font-size: 0.5rem;">55</p>
-                                                                    </div>
-                                                                    <p class="font-dhm-cards text-center text-white">Sec</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                
-                
-                                                    <!-- Bubbles -->
-                                                    <div class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
-                                                        <div class="d-flex ">
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="bg-danger px-2 py-1 rounded-circle">
-                                                                    <p class="text-white m-0 font-dhm-cards ">?</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">10</p>
-                                                            </div>
-                                                            <div class="d-flex align-items-center mx-4">
-                                                                <div class="bg-primary px-2 py-1 rounded-circle">
-                                                                    <p class="text-white m-0 font-dhm-cards "><i
-                                                                            class="bi bi-person text-white"></i></p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">10</p>
-                                                            </div>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="px-2 py-1 rounded-circle"
-                                                                    style="background-color: #f1a614;">
-                                                                    <p class="text-white m-0 font-dhm-cards ">$</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$56</p>
-                                                            </div>
-                                                        </div>
-                
-                                                        <!-- BIG BUBBLE -->
-                                                        <div class="position-absolute " style="top:-40px; right: 30px;">
-                                                            <div class="bg-primary px-4 py-3 rounded-circle  border">
-                                                                <p class="text-white m-0 font-dhm-cards "><i
-                                                                        class="bi bi-person text-white fs-4"></i></p>
-                                                            </div>
-                                                        </div>
-                
-                                                    </div>
-                
-                                                    <!-- MID -->
-                                                    <div class="card-body px-2 mb-3">
-                                                        <div class="d-flex ">
-                                                            <div>
-                                                                <h5 class="card-title fs-6">Prize Pool</h5>
-                                                                <div class="d-flex align-items-center">
-                                                                    <div class="px-1 py-1 rounded-circle"
-                                                                        style="background-color: #4db295;">
-                                                                        <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                    </div>
-                                                                    <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
-                                                                </div>
-                                                                <div class="d-flex align-items-center my-1">
-                                                                    <div class="px-1 py-1 rounded-circle"
-                                                                        style="background-color: #0000ff;">
-                                                                        <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                    </div>
-                                                                    <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
-                                                                </div>
-                                                                <div class="d-flex align-items-center">
-                                                                    <div class="px-1 py-1 rounded-circle"
-                                                                        style="background-color: #f1a614;">
-                                                                        <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                    </div>
-                                                                    <p class="m-0 mx-1" style="font-size: 0.6rem;">$32</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="ms-auto mx-5">
-                                                                <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
-                                                                <p class="lh-sm m-2" style="font-size: 0.6rem;">Start: 22/Feb/2022</p>
-                                                                <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                
-                
-                                                    <!-- FOOTER -->
-                                                    <div class="py-1 px-4">
-                                                        <button type="button"
-                                                            class="btn btn-danger py-1 text-white btn-lg w-100">Unregister</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>
-                                    </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="col-lg-4">
-                                                <div class="card p-0 ">
-                                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                                <div class="bg-primary  p-2 rounded-top">
-                                                    <div class="d-flex justify-content-between align-items-center mb-4">
-                                                        <p class=" text-white m-0 lh-sm col-xsm-9">This will be the quiz name in 2 lines</p>
-                                                        <a class="px-3 lh-sm  py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
-                                                            href="">Paid</a>
-                                                    </div>
+
+                                            <!-- MID -->
+                                            <div class="card-body px-2 mb-3">
+                                                <div class="d-flex ">
                                                     <div>
-                                                        <p class="text-white my-1">Ends in</p>
-                
-                                                        <!-- SMALL CARDS  -->
-                                                        <div class="small-cards d-flex col-4">
-                                                            <div class="col-xsm-3">
-                                                                <div class="px-2 py-2" style="background-color: #4db295;">
-                                                                    <p class="lh-sm text-center text-white m-0"
-                                                                        style="font-size: 0.5rem;">33</p>
-                                                                </div>
-                                                                <p class="font-dhm-cards text-center text-white">Days</p>
+                                                        <h5 class="card-title fs-6">Prize Pool</h5>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #4db295;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
                                                             </div>
-                                                            <div class="col-xsm-3 mx-1">
-                                                                <div class="bg-warning px-2 py-2 ">
-                                                                    <p class="lh-sm text-center m-0 text-white"
-                                                                        style="font-size: 0.5rem;">2</p>
-                                                                </div>
-                                                                <p class="font-dhm-cards text-center text-white">Hours</p>
+                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center my-1">
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #0000ff;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
                                                             </div>
-                                                            <div class="col-xsm-3">
-                                                                <div class="px-2 py-2" style="background-color: #34cd36;">
-                                                                    <p class="lh-sm text-center m-0 text-white"
-                                                                        style="font-size: 0.5rem;">43</p>
-                                                                </div>
-                                                                <p class="font-dhm-cards text-center text-white">Min</p>
+                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #f1a614;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
                                                             </div>
-                                                            <div class="col-xsm-3 mx-1">
-                                                                <div class="px-2 py-2" style="background-color: #f1a614;">
-                                                                    <p class="lh-sm text-center m-0 text-white"
-                                                                        style="font-size: 0.5rem;">22</p>
-                                                                </div>
-                                                                <p class="font-dhm-cards text-center text-white">Sec</p>
+                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$32</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ms-auto mx-5">
+                                                        <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
+                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">Start:
+                                                            22/Feb/2022</p>
+                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <!-- FOOTER -->
+                                            <div class="py-1 px-4">
+                                                <button type="button"
+                                                    class="btn btn-danger py-1 text-white btn-lg w-100">Unregister</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card p-0 ">
+                                            <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                            <div class="blue-color  p-2 rounded-top">
+                                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                                    <p class=" text-white col-9 m-0 lh-sm">This will be the quiz name in
+                                                        2 lines</p>
+                                                    <a class="px-3 lh-sm  py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
+                                                        href="">Paid</a>
+                                                </div>
+                                                <div>
+                                                    <p class="text-white my-1">Ends in</p>
+
+                                                    <!-- SMALL CARDS  -->
+                                                    <div class="small-cards d-flex col-4">
+                                                        <div class="col-xsm-4">
+                                                            <div class="p-3" style="background-color: #4db295;">
+                                                                <p class="lh-sm text-center text-white m-0"
+                                                                    style="font-size: 0.6rem;">33</p>
                                                             </div>
+                                                            <p class="font-dhm-cards text-center text-white">Days</p>
+                                                        </div>
+                                                        <div class="col-xsm-4 mx-1">
+                                                            <div class="bg-warning p-3 ">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">2</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Hours</p>
+                                                        </div>
+                                                        <div class="col-xsm-4">
+                                                            <div class="p-3" style="background-color: #34cd36;">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">43</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Min</p>
+                                                        </div>
+                                                        <div class="col-xsm-4 mx-1">
+                                                            <div class="p-3" style="background-color: #f1a614;">
+                                                                <p class="lh-sm text-center m-0 text-white"
+                                                                    style="font-size: 0.6rem;">22</p>
+                                                            </div>
+                                                            <p class="font-dhm-cards text-center text-white">Sec</p>
                                                         </div>
                                                     </div>
                                                 </div>
-                
-                
-                                                <!-- Bubbles -->
-                                                <div class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
-                                                    <div class="d-flex ">
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="bg-danger px-2 py-1 rounded-circle">
-                                                                <p class="text-white m-0 font-dhm-cards ">?</p>
-                                                            </div>
-                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">83</p>
+                                            </div>
+
+
+                                            <!-- Bubbles -->
+                                            <div
+                                                class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
+                                                <div class="d-flex ">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="bg-danger px-2 py-1 rounded-circle">
+                                                            <p class="text-white m-0 font-dhm-cards ">?</p>
                                                         </div>
-                                                        <div class="d-flex align-items-center mx-4">
-                                                            <div class="bg-primary px-2 py-1 rounded-circle">
-                                                                <p class="text-white m-0 font-dhm-cards "><i
-                                                                        class="bi bi-person text-white"></i></p>
-                                                            </div>
-                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">32</p>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">83</p>
+                                                    </div>
+                                                    <div class="d-flex align-items-center mx-4">
+                                                        <div class="bg-primary px-2 py-1 rounded-circle">
+                                                            <p class="text-white m-0 font-dhm-cards "><i
+                                                                    class="bi bi-person text-white"></i></p>
                                                         </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">32</p>
+                                                    </div>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="px-2 py-1 rounded-circle"
+                                                            style="background-color: #f1a614;">
+                                                            <p class="text-white m-0 font-dhm-cards ">$</p>
+                                                        </div>
+                                                        <p class="m-0 mx-1" style="font-size: 0.6rem;">$88</p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- BIG BUBBLE -->
+                                                <div class="position-absolute " style="top:-30px; right: 30px;">
+                                                    <div class="blue-color px-3 py-2 rounded-circle border">
+                                                        <p class="text-white m-0 font-dhm-cards "><i
+                                                                class="bi bi-person text-white fs-4"></i></p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <!-- MID -->
+                                            <div class="card-body px-2 mb-3">
+                                                <div class="d-flex ">
+                                                    <div>
+                                                        <h5 class="card-title fs-6">Prize Pool</h5>
                                                         <div class="d-flex align-items-center">
-                                                            <div class="px-2 py-1 rounded-circle" style="background-color: #f1a614;">
-                                                                <p class="text-white m-0 font-dhm-cards ">$</p>
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #4db295;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
                                                             </div>
                                                             <p class="m-0 mx-1" style="font-size: 0.6rem;">$88</p>
                                                         </div>
-                                                    </div>
-                
-                                                    <!-- BIG BUBBLE -->
-                                                    <div class="position-absolute " style="top:-40px; right: 30px;">
-                                                        <div class="bg-primary px-4 py-3 rounded-circle border">
-                                                            <p class="text-white m-0 font-dhm-cards "><i
-                                                                    class="bi bi-person text-white fs-4"></i></p>
+                                                        <div class="d-flex align-items-center my-1">
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #0000ff;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
+                                                            </div>
+                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="px-1 py-1 rounded-circle"
+                                                                style="background-color: #f1a614;">
+                                                                <p class="text-white m-0 font-dhm-cards ">1st</p>
+                                                            </div>
+                                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$42</p>
                                                         </div>
                                                     </div>
-                
-                                                </div>
-                
-                                                <!-- MID -->
-                                                <div class="card-body px-2 mb-3">
-                                                    <div class="d-flex ">
-                                                        <div>
-                                                            <h5 class="card-title fs-6">Prize Pool</h5>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="px-1 py-1 rounded-circle"
-                                                                    style="background-color: #4db295;">
-                                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$88</p>
-                                                            </div>
-                                                            <div class="d-flex align-items-center my-1">
-                                                                <div class="px-1 py-1 rounded-circle"
-                                                                    style="background-color: #0000ff;">
-                                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
-                                                            </div>
-                                                            <div class="d-flex align-items-center">
-                                                                <div class="px-1 py-1 rounded-circle"
-                                                                    style="background-color: #f1a614;">
-                                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                                </div>
-                                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$42</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="ms-auto mx-5">
-                                                            <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
-                                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">Start: 22/Feb/2022</p>
-                                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022</p>
-                                                        </div>
+                                                    <div class="ms-auto mx-5">
+                                                        <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
+                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">Start:
+                                                            22/Feb/2022</p>
+                                                        <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022
+                                                        </p>
                                                     </div>
                                                 </div>
-                
-                
-                                                <!-- FOOTER -->
-                                                <div class="py-1 px-4">
-                                                    <button type="button" style="background-color: #4db295;"
-                                                        class="btn py-1 text-white btn-lg w-100">Register</button>
-                                                </div>
-                                                </div>
                                             </div>
-                                    </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev " style="margin-left: -3rem;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-                                  <span class="visually-hidden ">Previous</span>
-                                </button>
-                                <button class="carousel-control-next " style="margin-right: -3rem;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                            </div>
 
 
-
-                        <div class="d-none d-lg-block">
-                        <div class="row mx-0">
-                            <div class="col-md-4">
-                                <div class="card p-0 rounded ">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="bg-primary  p-2 rounded-top">
-                                    <div class="d-flex justify-content-between align-items-center mb-4">
-                                        <p class=" text-white m-0 lh-sm col-9">This will be the quiz name in 2 lines</p>
-                                        <a class="px-3  lh-sm  py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
-                                            href="">Paid</a>
-                                    </div>
-                                    <div>
-                                        <p class="text-white my-1">Ends in</p>
-
-                                        <!-- SMALL CARDS  -->
-                                        <div class="small-cards d-flex col-4">
-                                            <div class="col-xsm-3">
-                                                <div class="px-2 py-2" style="background-color: #4db295;">
-                                                    <p class="lh-sm text-center text-white m-0"
-                                                        style="font-size: 0.5rem;">4</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Days</p>
-                                            </div>
-                                            <div class="col-xsm-3 mx-1">
-                                                <div class="bg-warning px-2 py-2 ">
-                                                    <p class="lh-sm text-center m-0 text-white"
-                                                        style="font-size: 0.5rem;">5</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Hours</p>
-                                            </div>
-                                            <div class="col-xsm-3">
-                                                <div class="px-2 py-2" style="background-color: #34cd36;">
-                                                    <p class="lh-sm text-center m-0 text-white"
-                                                        style="font-size: 0.5rem;">11</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Min</p>
-                                            </div>
-                                            <div class="col-xsm-3 mx-1">
-                                                <div class="px-2 py-2" style="background-color: #f1a614;">
-                                                    <p class="lh-sm text-center m-0 text-white"
-                                                        style="font-size: 0.5rem;">24</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Sec</p>
+                                            <!-- FOOTER -->
+                                            <div class="py-1 px-4">
+                                                <button type="button" style="background-color: #4db295;"
+                                                    class="btn py-1 text-white btn-lg w-100">Register</button>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- Bubbles -->
-                                <div class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
-                                    <div class="d-flex ">
-                                        <div class="d-flex align-items-center">
-                                            <div class="bg-danger px-2 py-1 rounded-circle">
-                                                <p class="text-white m-0 font-dhm-cards ">?</p>
-                                            </div>
-                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">99</p>
-                                        </div>
-                                        <div class="d-flex align-items-center mx-4">
-                                            <div class="bg-primary px-2 py-1 rounded-circle">
-                                                <p class="text-white m-0 font-dhm-cards "><i
-                                                        class="bi bi-person text-white"></i></p>
-                                            </div>
-                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">23</p>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <div class="px-2 py-1 rounded-circle" style="background-color: #f1a614;">
-                                                <p class="text-white m-0 font-dhm-cards ">$</p>
-                                            </div>
-                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- BIG BUBBLE -->
-                                    <div class="position-absolute " style="top:-40px; right: 30px;">
-                                        <div class="bg-primary px-4 py-3 rounded-circle  border">
-                                            <p class="text-white m-0 font-dhm-cards "><i
-                                                    class="bi bi-person text-white fs-4"></i></p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- MID -->
-                                <div class="card-body px-2 mb-3">
-                                    <div class="d-flex ">
-                                        <div>
-                                            <h5 class="card-title fs-6">Prize Pool</h5>
-                                            <div class="d-flex align-items-center">
-                                                <div class="px-1 py-1 rounded-circle"
-                                                    style="background-color: #4db295;">
-                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
-                                            </div>
-                                            <div class="d-flex align-items-center my-1">
-                                                <div class="px-1 py-1 rounded-circle"
-                                                    style="background-color: #0000ff;">
-                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
-                                            </div>
-                                            <div class="d-flex align-items-center">
-                                                <div class="px-1 py-1 rounded-circle"
-                                                    style="background-color: #f1a614;">
-                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$32</p>
-                                            </div>
-                                        </div>
-                                        <div class="ms-auto mx-5">
-                                            <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
-                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">Start: 22/Feb/2022</p>
-                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- FOOTER -->
-                                <div class="py-1 px-4">
-                                    <button type="button" style="background-color: #4db295;"
-                                        class="btn py-1 text-white btn-lg w-100">Register</button>
-                                </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card  p-0 ">
-                                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                    <div class="bg-primary  p-2 rounded-top">
-                                        <div class="d-flex justify-content-between align-items-center mb-4">
-                                            <p class=" text-white m-0 col-9 lh-sm">This will be the quiz name in 2 lines
-                                            </p>
-                                            <a class="px-3 lh-sm  py-1 text-center text-decoration-none text-white rounded-pill"
-                                                style="background-color: #34cd36;" href="">Free</a>
-                                        </div>
-                                        <div>
-                                            <p class="text-white my-1">Ends in</p>
-
-                                            <!-- SMALL CARDS  -->
-                                            <div class="small-cards d-flex col-4">
-                                                <div class="col-xsm-3">
-                                                    <div class="px-2 py-2" style="background-color: #4db295;">
-                                                        <p class="lh-sm text-center text-white m-0"
-                                                            style="font-size: 0.5rem;">11</p>
-                                                    </div>
-                                                    <p class="font-dhm-cards text-center text-white">Days</p>
-                                                </div>
-                                                <div class="col-xsm-3 mx-1">
-                                                    <div class="bg-warning px-2 py-2 ">
-                                                        <p class="lh-sm text-center m-0 text-white"
-                                                            style="font-size: 0.5rem;">2</p>
-                                                    </div>
-                                                    <p class="font-dhm-cards text-center text-white">Hours</p>
-                                                </div>
-                                                <div class="col-xsm-3">
-                                                    <div class="px-2 py-2" style="background-color: #34cd36;">
-                                                        <p class="lh-sm text-center m-0 text-white"
-                                                            style="font-size: 0.5rem;">25</p>
-                                                    </div>
-                                                    <p class="font-dhm-cards text-center text-white">Min</p>
-                                                </div>
-                                                <div class="col-xsm-3 mx-1">
-                                                    <div class="px-2 py-2" style="background-color: #f1a614;">
-                                                        <p class="lh-sm text-center m-0 text-white"
-                                                            style="font-size: 0.5rem;">55</p>
-                                                    </div>
-                                                    <p class="font-dhm-cards text-center text-white">Sec</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Bubbles -->
-                                    <div class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
-                                        <div class="d-flex ">
-                                            <div class="d-flex align-items-center">
-                                                <div class="bg-danger px-2 py-1 rounded-circle">
-                                                    <p class="text-white m-0 font-dhm-cards ">?</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">10</p>
-                                            </div>
-                                            <div class="d-flex align-items-center mx-4">
-                                                <div class="bg-primary px-2 py-1 rounded-circle">
-                                                    <p class="text-white m-0 font-dhm-cards "><i
-                                                            class="bi bi-person text-white"></i></p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">10</p>
-                                            </div>
-                                            <div class="d-flex align-items-center">
-                                                <div class="px-2 py-1 rounded-circle"
-                                                    style="background-color: #f1a614;">
-                                                    <p class="text-white m-0 font-dhm-cards ">$</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$56</p>
-                                            </div>
-                                        </div>
-
-                                        <!-- BIG BUBBLE -->
-                                        <div class="position-absolute " style="top:-40px; right: 30px;">
-                                            <div class="bg-primary px-4 py-3 rounded-circle  border">
-                                                <p class="text-white m-0 font-dhm-cards "><i
-                                                        class="bi bi-person text-white fs-4"></i></p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <!-- MID -->
-                                    <div class="card-body px-2 mb-3">
-                                        <div class="d-flex ">
-                                            <div>
-                                                <h5 class="card-title fs-6">Prize Pool</h5>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="px-1 py-1 rounded-circle"
-                                                        style="background-color: #4db295;">
-                                                        <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                    </div>
-                                                    <p class="m-0 mx-1" style="font-size: 0.6rem;">$96</p>
-                                                </div>
-                                                <div class="d-flex align-items-center my-1">
-                                                    <div class="px-1 py-1 rounded-circle"
-                                                        style="background-color: #0000ff;">
-                                                        <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                    </div>
-                                                    <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
-                                                </div>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="px-1 py-1 rounded-circle"
-                                                        style="background-color: #f1a614;">
-                                                        <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                    </div>
-                                                    <p class="m-0 mx-1" style="font-size: 0.6rem;">$32</p>
-                                                </div>
-                                            </div>
-                                            <div class="ms-auto mx-5">
-                                                <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
-                                                <p class="lh-sm m-2" style="font-size: 0.6rem;">Start: 22/Feb/2022</p>
-                                                <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- FOOTER -->
-                                    <div class="py-1 px-4">
-                                        <button type="button"
-                                            class="btn btn-danger py-1 text-white btn-lg w-100">Unregister</button>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-4">
-                                <div class="card p-0 ">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="bg-primary  p-2 rounded-top">
-                                    <div class="d-flex justify-content-between align-items-center mb-4">
-                                        <p class=" text-white col-9 m-0 lh-sm">This will be the quiz name in 2 lines</p>
-                                        <a class="px-3 lh-sm  py-1 text-center bg-danger text-decoration-none text-white rounded-pill"
-                                            href="">Paid</a>
-                                    </div>
-                                    <div>
-                                        <p class="text-white my-1">Ends in</p>
-
-                                        <!-- SMALL CARDS  -->
-                                        <div class="small-cards d-flex col-4">
-                                            <div class="col-xsm-3">
-                                                <div class="px-2 py-2" style="background-color: #4db295;">
-                                                    <p class="lh-sm text-center text-white m-0"
-                                                        style="font-size: 0.5rem;">33</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Days</p>
-                                            </div>
-                                            <div class="col-xsm-3 mx-1">
-                                                <div class="bg-warning px-2 py-2 ">
-                                                    <p class="lh-sm text-center m-0 text-white"
-                                                        style="font-size: 0.5rem;">2</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Hours</p>
-                                            </div>
-                                            <div class="col-xsm-3">
-                                                <div class="px-2 py-2" style="background-color: #34cd36;">
-                                                    <p class="lh-sm text-center m-0 text-white"
-                                                        style="font-size: 0.5rem;">43</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Min</p>
-                                            </div>
-                                            <div class="col-xsm-3 mx-1">
-                                                <div class="px-2 py-2" style="background-color: #f1a614;">
-                                                    <p class="lh-sm text-center m-0 text-white"
-                                                        style="font-size: 0.5rem;">22</p>
-                                                </div>
-                                                <p class="font-dhm-cards text-center text-white">Sec</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- Bubbles -->
-                                <div class="d-flex bg-light align-items-center justify-content-between position-relative p-2">
-                                    <div class="d-flex ">
-                                        <div class="d-flex align-items-center">
-                                            <div class="bg-danger px-2 py-1 rounded-circle">
-                                                <p class="text-white m-0 font-dhm-cards ">?</p>
-                                            </div>
-                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">83</p>
-                                        </div>
-                                        <div class="d-flex align-items-center mx-4">
-                                            <div class="bg-primary px-2 py-1 rounded-circle">
-                                                <p class="text-white m-0 font-dhm-cards "><i
-                                                        class="bi bi-person text-white"></i></p>
-                                            </div>
-                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">32</p>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <div class="px-2 py-1 rounded-circle" style="background-color: #f1a614;">
-                                                <p class="text-white m-0 font-dhm-cards ">$</p>
-                                            </div>
-                                            <p class="m-0 mx-1" style="font-size: 0.6rem;">$88</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- BIG BUBBLE -->
-                                    <div class="position-absolute " style="top:-40px; right: 30px;">
-                                        <div class="bg-primary px-4 py-3 rounded-circle border">
-                                            <p class="text-white m-0 font-dhm-cards "><i
-                                                    class="bi bi-person text-white fs-4"></i></p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- MID -->
-                                <div class="card-body px-2 mb-3">
-                                    <div class="d-flex ">
-                                        <div>
-                                            <h5 class="card-title fs-6">Prize Pool</h5>
-                                            <div class="d-flex align-items-center">
-                                                <div class="px-1 py-1 rounded-circle"
-                                                    style="background-color: #4db295;">
-                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$88</p>
-                                            </div>
-                                            <div class="d-flex align-items-center my-1">
-                                                <div class="px-1 py-1 rounded-circle"
-                                                    style="background-color: #0000ff;">
-                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$26</p>
-                                            </div>
-                                            <div class="d-flex align-items-center">
-                                                <div class="px-1 py-1 rounded-circle"
-                                                    style="background-color: #f1a614;">
-                                                    <p class="text-white m-0 font-dhm-cards ">1st</p>
-                                                </div>
-                                                <p class="m-0 mx-1" style="font-size: 0.6rem;">$42</p>
-                                            </div>
-                                        </div>
-                                        <div class="ms-auto mx-5">
-                                            <h5 class="card-title  fs-6 ">Quiz Schedul</h5>
-                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">Start: 22/Feb/2022</p>
-                                            <p class="lh-sm m-2" style="font-size: 0.6rem;">End: 23/Feb/2022</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- FOOTER -->
-                                <div class="py-1 px-4">
-                                    <button type="button" style="background-color: #4db295;"
-                                        class="btn py-1 text-white btn-lg w-100">Register</button>
-                                </div>
-                                </div>
-                            </div>
-                        </div>  
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+        <script>
+            const toggleBtn = document.getElementById('toggle-btn');
+            const box = document.querySelector('.side-bar');
+
+            toggleBtn.addEventListener('click', () => {
+                         box.classList.toggle('show');
+            });
+            
+    </script> 
+    
 </body>
 
 </html>

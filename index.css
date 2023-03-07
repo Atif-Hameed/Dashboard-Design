@@ -1,12 +1,19 @@
 .bg-color{
-    background-color: #DFDEDC;
+    background-color: #eeece9ce;
 }
 .navbar-color{
     background-color: #fff;
 }
-.text-color-1{
-    color: royalblue;
+/* .side-bar{
+    margin-left: -150px;
+    transition: margin-left 0.5s ease;
 }
+.show{
+    margin-left: 0;
+} */
+/* .text-color-1{
+    color: royalblue;
+} */
 .nav-font-size{
     font-size: 0.55rem;
     color: #000000;
@@ -14,10 +21,18 @@
 /* .admin-name{
     color: #092032 !important;
 } */
-@media (max-width: 767px) {
-    .side-nav {
-      display: none;
-    }
+@media (max-width: 576px) {
+    .side-bar {
+        position: absolute;
+        left: -50rem;
+        z-index: 10;
+        height: 95%;
+         transition: all 0.5s ease;
+       }
+       
+       .show {
+         left: 0;
+       }
 }
 @media (max-width: 576px) {
     .admin-name {
@@ -30,6 +45,10 @@
     }
 }
 @media (max-width: 525px) {
+    .admin-text{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
     .text-size {
         font-size: 15px;
     }
@@ -47,16 +66,49 @@
     font-size: 0.4rem;
 }
 .font-dhm-cards{
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .card-mobl{
         padding: 40px;
     }
+    .font-main-sied{
+        font-size: 0.7rem;
+    }
+    .head-2{
+        display: none;
+    }
 }
+@media(max-width:450px){
+    .img-size{
+        width: 1.3rem;
+    }
+}
+.hover-nav:hover{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.hover-nav:hover i{
+    color: royalblue !important;
+}
+.hover-nav:hover a{
+    color: royalblue !important;
+}
+.blue-color{
+    background-color: #02459e;
+}
+.lead-hover:hover{
+    background-color: #feb125;
+}
+.lead-hover:hover a{
+    color: #fff !important;
+}
+
 /* .bi.bi-2-square-fill::before{
     content: "24";
     font-size: 0.8rem;
     line-height: 0;
 } */
+  
+
   
