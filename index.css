@@ -4,23 +4,10 @@
 .navbar-color{
     background-color: #fff;
 }
-/* .side-bar{
-    margin-left: -150px;
-    transition: margin-left 0.5s ease;
-}
-.show{
-    margin-left: 0;
-} */
-/* .text-color-1{
-    color: royalblue;
-} */
 .nav-font-size{
     font-size: 0.55rem;
     color: #000000;
 }
-/* .admin-name{
-    color: #092032 !important;
-} */
 @media (max-width: 576px) {
     .side-bar {
         position: absolute;
@@ -36,15 +23,22 @@
 }
 @media (max-width: 576px) {
     .admin-name {
-      display: none;
+        display: none;
     }
-}
-@media (max-width: 576px) {
     .hide{
         display: none;
     }
 }
 @media (max-width: 525px) {
+    .hide-pad{
+        padding: 0;
+    }
+    .small-size{
+        font-size: 0.5rem;
+    }
+    .small-size img{
+        width: 1.2rem;
+    }
     .admin-text{
         font-size: 0.8rem;
         font-weight: bold;
@@ -84,6 +78,14 @@
         width: 1.3rem;
     }
 }
+@media(max-width:992px){
+    .revers-order{
+        flex-direction: column-reverse;
+    }
+    .top-lg{
+        margin-top: 50px;
+    }
+}
 .hover-nav:hover{
     background-color: #fff;
     border-radius: 5px;
@@ -102,13 +104,4 @@
 }
 .lead-hover:hover a{
     color: #fff !important;
-}
-
-/* .bi.bi-2-square-fill::before{
-    content: "24";
-    font-size: 0.8rem;
-    line-height: 0;
-} */
-  
-
-  
+}  
